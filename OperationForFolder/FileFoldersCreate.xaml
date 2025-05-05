@@ -1,0 +1,19 @@
+﻿<Window x:Class="OperationForFolder.FileFoldersCreate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OperationForFolder"
+        mc:Ignorable="d"
+        Title="FileFoldersCreate" Height="220" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel>
+            <TextBlock FontSize="16" Height="21" Width="304"><Run Text="        Напишете имя файла/каталога"/></TextBlock>
+            <TextBlock FontSize="16" Height="34" Width="304"><Run Text="и нажмите на соответствующую кнопку."/></TextBlock>
+            <TextBlock x:Name="OwnerTextBlock" FontSize="16" Height="18" Width="184"></TextBlock>
+            <TextBox x:Name="OwnertextBox1" Width="186" Height="27" Margin="0 5 0 0"/>
+            <Button Width="210" Content="Файл" Height="35" Click="Button_Click" Margin="0 5 0 0"/>
+            <Button Width="210" Content="Каталог" Height="35" Click="Button_Click_1"/>
+        </StackPanel>
+    </Grid>
+</Window>

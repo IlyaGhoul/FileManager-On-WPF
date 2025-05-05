@@ -1,0 +1,20 @@
+﻿<Window x:Class="OperationForFolder.CopyFileFolder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OperationForFolder"
+        mc:Ignorable="d"
+        Title="CopyFileFolder" Height="220" Width="400" ResizeMode="NoResize">
+    <Grid>                                                                 
+        <StackPanel>
+            <TextBlock Margin="10 0 0 0" FontSize="16" Height="25" Width="388" Text="Напишете путь, чтобы копировать папку или файл" />
+            <TextBlock HorizontalAlignment="Center" Margin="50 0 0 0" FontSize="16" Height="34" Width="304" Text="и нажмите на кнопку переместить" />
+            <TextBlock x:Name="OwnerTextBlock3" FontSize="16" Height="24" Width="184"/>
+
+            <TextBox x:Name="OwnertextBox3"  Margin="0 5 0 0" Width="186" Height="25"/>
+            <Button Width="210" Margin="0 10 0 0" Content="копировать" Height="35" Click="Button_Click2" />
+
+        </StackPanel>
+    </Grid>
+</Window>

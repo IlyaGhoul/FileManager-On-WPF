@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C.png" />
+    <None Remove="Снимок экрана 2024-11-30 194659.png" />
+    <None Remove="Снимок экрана 2024-11-30 194759.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="C.png" />
+  </ItemGroup>
+
+</Project>
